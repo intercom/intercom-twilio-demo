@@ -51,7 +51,7 @@ post '/incoming_from_intercom' do
   # Send the response to Twilio
   unless last_message.strip.empty?
     TWILIO.messages.create(
-      from: '+12055887210',
+      from: ENV['TWILIO_NUMBER'],
       to: user.user_id,
       body: last_message
     )
