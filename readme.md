@@ -1,6 +1,6 @@
 ---
 title: Integrating Intercom with Twilio
-date: 2015-10-05 15:00 +0000
+date: 2015-10-12 15:00 +0000
 author: bob
 tags:
 ---
