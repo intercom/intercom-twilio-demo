@@ -74,4 +74,4 @@ post '/incoming_from_intercom' do
 end
 ```
 
-This constitutes a quick way to begin supporting your users over SMS, and all of this code is available on GitHub. Please reach out if you have any questions or problems when integrating Intercom with your chosen support workflow.
+This constitutes a quick way to begin supporting your users over SMS, and all of this code is available on [GitHub](https://github.com/intercom/intercom-twilio-demo). Please reach out if you have any questions or problems when integrating Intercom with your chosen support workflow.
