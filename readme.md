@@ -16,8 +16,8 @@ SMS (or "texts") have an extremely low barrier to entry, and yet are reported as
 Let's imagine a simple series of actions we want to neatly support:
 
 * Customer sends in an SMS to our helpline number
-* A user is automatically created in Intercom, and the phone number is stored
-* A new conversation is created in Intercom
+* A user is automatically created in Intercom, and the phone number is stored, the user is tagged with the defined tag
+* A new conversation is created in Intercom or replied too if this isnt the first SMS reply
 * Admin replies to that conversation get sent to the user over SMS
 
 Using Twilio's webhooks, we can write a handler to accomplish the first 3 steps via the Intercom API:
